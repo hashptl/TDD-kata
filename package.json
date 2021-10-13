@@ -1,0 +1,22 @@
+{
+  "name": "tdd-kata",
+  "version": "1.0.0",
+  "description": "A simple string calculator with a method signature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hashptl/TDD-kata.git"
+  },
+  "author": "Hiren Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashptl/TDD-kata/issues"
+  },
+  "homepage": "https://github.com/hashptl/TDD-kata#readme",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
