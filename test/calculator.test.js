@@ -1,4 +1,4 @@
-const calculator = require("../src/calculator");
+const add = require("../src/calculator");
 
 test('Return 0 if output is ""', () => {
   expect(add("")).toBe(0);
@@ -9,7 +9,7 @@ test('Return 1 if input is "1"', () => {
 });
 
 test('Return 3 if input is "1,2"', () => {
-  expect(add("1, 2")).toBe(6);
+  expect(add("1, 2")).toBe(3);
 });
 
 test("Return result for unknown numbers", () => {

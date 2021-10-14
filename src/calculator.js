@@ -3,7 +3,7 @@ function add(stringNumbers) {
   let delimeter = /[,\n]/;
   let numbers = stringNumbers.split(delimeter);
 
-  if (stringNumbers.subString(0, 2) === "//") {
+  if (stringNumbers.substring(0, 2) === "//") {
     let nums = stringNumbers.replace(/[^0-9]/, "");
     numbers = nums.split("");
   }
@@ -22,4 +22,4 @@ function add(stringNumbers) {
   return sum;
 }
 
-module.exports.add = add;
+module.exports = add;
